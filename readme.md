@@ -5,6 +5,14 @@
 - School: LAB university of applied science
 - Project:front-end webpage design
 
+# Website link
+
+- https://cansinylee.github.io/lijiaxin-webside/
+
+# Video for running the project
+
+- https://meeting.tencent.com/crm/NQPew1V2f8
+
 # Project brief
 
 This is a simple front-end website created as part of an online course focused on front-end development skills. The project uses HTML for structure, CSS for styling and layout, and a small amount of JavaScript for interactivity.
@@ -14,14 +22,6 @@ This is a simple front-end website created as part of an online course focused o
 - HTML: Used to structure the webpage, including text, forms, and media elements.
 - CSS: Provides the design and layout, using techniques like Flexbox and Grid to ensure responsive design.
 - JavaScript: Adds basic interactivity (e.g., form validation, dynamic behavior).
-
-# Website link
-
-- https://cansinylee.github.io/lijiaxin-webside/
-
-# Vedio for running the project
-
-https://meeting.tencent.com/crm/NQPew1V2f8
 
 # Folder Structure
 
@@ -38,5 +38,3 @@ web2024/
 │ ├── image2.png
 │
 ├── index.html # Main HTML file
-
-#
