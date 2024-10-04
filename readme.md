@@ -1,3 +1,7 @@
+Name:Lijiaxin
+Student Number:2310245
+Scool:LAB university of applied science
+
 This is a simple front-end website created as part of an online course focused on front-end development skills. The project uses HTML for structure, CSS for styling and layout, and a small amount of JavaScript for interactivity.
 
 # Feature
