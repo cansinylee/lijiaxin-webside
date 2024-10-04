@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ICarCore</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!--文字的corn可以到poppins去选择，选择之后复制link，就可以直接使用-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+        <!--有些好看的按钮框可以去cdnjs 搜索fortawesome，同样复制link -->
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" />
+        <!--ref和href是定义资源来源，href内部是链接，外部是css-->
+        <link rel="stylesheet" href="j_css/j_style.css" />
+        <link rel="shortcut icon" href="j_images/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <!-- 去边框-->
+                <div class="logo">
+                    <a href="j_index.html">
+                        <img src="j_images/j_logo1.png" alt="logo" />
+                        <img src="j_images/j_logo3.png" alt="logo" />
+                        <img src="j_images/j_logo4.png" alt="logo" />
+                    </a>
+                </div>
+                <!--设置导航列表-->
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="j_index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Product</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </nav>
+    <!-- 弄完这个导航就可以去设置css，但logo图片要怎么调整-->
+
+<!-- Hero 这个是导航下面的一些-->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-heading text-xxl">
+                            Want some solution? HERE IT IS!
+                        </h1>
+                        
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-primary">Service</a>
+                            <a href="#" class="btn"><i class="fas fa-phone"></i> Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- Video Section -->
+            <section class="video bg-black">
+                <div class="container-sm">
+                    <h2 class="video-heading text-xl text-center">
+                        Service and Product Introduction
+                    </h2>
+                    <div class="video-content">
+                        <a href="#">
+                            <img src="j_images/video.png" alt="video" class="video-preview" />
+                        </a>
+            
+                        <a href="#" class="btn btn-primary">Click Here</a>
+                    </div>
+                </div>
+            </section>
+
+<!--接下来了是tsetmonicals，视频53分钟！-->
+<!-- Testimonials -->
+            <section class="testimonials bg-dark">
+                <div class="container">
+                    <h3 class="testimonials-heading text-xl">
+                        See the success stories from
+                        businesses just like yours.
+                    </h3>
+                    <div class="testimonials-grid">
+                        <div class="card">
+                            <p>
+                                “I have gained many useful management 
+                                methods for automotive companies here.”
+                            </p>
+
+                            <p>Zach Ma</p>
+                            <p>CarFamily</p>
+                        </div>
+
+                        <div class="card">
+                            <p>
+                                “I have developed a mobile application that 
+                                serves only my company. My customers can use 
+                                the app to learn about my automotive products, place orders, and make purchases. They can also track the delivery process, which enhances user
+                                engagement.”
+                            </p>
+
+                            <p>Johnathan Lee</p>
+                            <p>Window Tint</p>
+                        </div>
+
+                        <div class="card">
+                            <p>
+                                “If you want your automotive business to 
+                                achieve greater success, you must find here!”
+                            </p>
+
+                            <p>David Wilson</p>
+                            <p>Slide</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </body>
+
+            <!-- Pricing -->
+            <section class="pricing">
+                <div class="card-container">
+                <!--将三个card包含在一个父集合里面-->
+                    <h3 class="pricing-heading text-xl text-center">Pricing</h3>
+                    <p class="pricing-subheading text-md text-center">
+                        Choose the service that suits you
+                    </p>
+                    <div class="pricing-grid">
+                        <!-- Pricing Card 1 -->
+                        <div class="card bg-light">
+                            <div class="pricing-card-header">
+                                <h4 class="pricing-heading text-xl">Enterprise Process Management</h4>
+                                <p class="pricing-card-subheading">
+                                    We provide professional enterprise process management
+                                     services to help automotive companies optimize 
+                                     workflows, improve efficiency and productivity, 
+                                     thereby reducing costs and enhancing competitiveness.
+                                </p>
+                               
+                            </div>
+                            <div class="pricing-card-body">
+                               
+                                <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                            </div>
+                        </div>
+                        <!---pricing card 2-->
+                        <div class="card bg-black">
+                            <div class="pricing-card-header">
+                                <h4 class="pricing-heading text-xl">Core Resource Procurement</h4>
+                                <p class="pricing-card-subheading">
+                                    Our procurement services focus on providing 
+                                    high-quality core resources for automotive 
+                                    enterprises, ensuring the
+                                    stability of their production chain and timely 
+                                    supply, supporting sustainable development.
+                                </p>
+                        
+                            </div>
+                            <div class="pricing-card-body">
+                        
+                                <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                            </div>
+                        </div>
+                        <!---pricing card 3-->
+                        <div class="card bg-black">
+                            <div class="pricing-card-header">
+                                <h4 class="pricing-heading text-xl">Automotive Software Development</h4>
+                                <p class="pricing-card-subheading">
+                                    We offer customized software development services,
+                                    designing solutions based on the specific needs of 
+                                    automotive
+                                    companies to enhance their technical capabilities and 
+                                    market responsiveness.
+                                </p>
+                        
+                            </div>
+                            <div class="pricing-card-body">
+                        
+                                <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                            </div>
+                        </div>
+
+                        <!-- Pricing Card 4 -->
+                        <div class="card bg-light">
+                            <div class="pricing-card-header">
+                                <h4 class="pricing-heading text-xl">Having good idea?</h4>
+                                <p class="pricing-card-subheading">
+                                    Just come to us!
+                                </p>
+                        
+                            </div>
+                            <div class="pricing-card-body">
+                        
+                                <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                            </div>
+                        </div>
+                    </section>
+            
+            <!--最下面的联系方式-->
+            <footer class="footer bg-black">
+                <div class="container">
+                    <div class="footer-grid">
+                        <div>
+                            
+                            <div class="card">
+                                <h4>Subscribe to Newsletter</h4>
+                                <p class="text-sm">
+                                    Subscribe now to receive tips on how to take your business to
+                                    the next level.
+                                </p>
+                                <form>
+                                    <input type="email" id="email" placeholder="Enter your email" />
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Subscribe
+                                    </button>
+                                </form>
+                            </div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div>
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Process</a></li>
+                                <li><a href="#">Join Our Team</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Recent Projects</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Contact</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">hello@growthapp.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+            <script src="js/main.js"></script>
+            </body>
+            
+            </html>

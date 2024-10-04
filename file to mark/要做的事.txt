@@ -1,0 +1,22 @@
+Your repository should contain:
+
+1. Your name
+
+2. Learning diary （要写！）
+
+3. Project （doing！）
+
+4. ReadME how to run your Project （简单介绍这个网站）
+
+5. File including a link to a video of your project running  （腾讯会议录制，内容跟4一样）
+
+
+Project task
+Your project should have the following:
+
+1. Page with navigation （做了）
+2. Responsive styles with CSS （做了）
+3. Flexbox and CSS Grid
+4. Deployed Website 
+
+Remember that you can use the example code in your project. You are also free to add anything you think of in addition. Do not forget to detail all activities in your learning diary.
