@@ -1,7 +1,7 @@
 # Student info
 
 - Name:LI JIAXIN
-- Student Number:231045
+- Student Number:2310245
 - School: LAB university of applied science
 - Project:front-end webpage design
 
