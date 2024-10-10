@@ -20,3 +20,19 @@ Your project should have the following:
 4. Deployed Website 
 
 Remember that you can use the example code in your project. You are also free to add anything you think of in addition. Do not forget to detail all activities in your learning diary.
+
+
+讲稿：
+Hello everyone, welcome to my video! Today, I will introduce a website I designed, focusing on HTML, responsive CSS styles, Flexbox and CSS Grid layouts, as well as how I deployed my website.
+
+1. HTML
+First, let's take a look at how my website is built using HTML. In the HTML structure, I used semantic tags such as <header>, <nav>, <section>, and <footer> to ensure that the page structure is clear and improves accessibility. I also included images and links to make navigation and information retrieval convenient for users.
+
+2. Responsive Styles with CSS
+Next, I used CSS to create responsive styles, ensuring that the website displays well on various devices. I utilized media queries to adjust the layout and styles, guaranteeing that users receive the best browsing experience on mobile phones, tablets, and desktop computers. This design not only makes my website visually appealing but also enhances user experience.
+
+3. Flexbox and CSS Grid
+For layout, I employed Flexbox and CSS Grid. These two tools helped me achieve flexible and complex layouts, allowing components to automatically adjust on different screen sizes. I used Flexbox to handle the arrangement of the navigation bar and buttons, while CSS Grid was used to create more intricate content areas, such as image galleries and information display sections. This approach significantly improved the responsiveness and overall aesthetic of the page.
+
+4. Deployed Website
+Finally, I deployed my website on GitHub Pages, making it accessible to anyone through a simple link. During the deployment process, I ensured that all files were correctly uploaded and set up the appropriate branch on GitHub for the website to function smoothly.
